@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-<parameter name="appURL" value="https://www.google.com/"/>
+<parameter name="appURL" value="http://www.seleniumeasy.com/test/table-data-download-demo.html"/>
 <parameter name="browserType" value="chrome"/>
   <test name="Test">
     <classes>
-      <class name="tests.BasePageTest"/>
+      <class name="tests.TableTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
